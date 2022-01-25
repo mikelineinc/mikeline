@@ -73,6 +73,6 @@
     countdown.innerHTML = output.replace('%d', days).replace('%h', hours).replace('%m', minutes).replace('%s', seconds);
   }
   countDownDate();
-  setInterval(countDownDate, 1000);
+  setInterval(countDownDate, 100);
 
 })()
